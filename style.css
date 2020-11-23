@@ -1,0 +1,110 @@
+body {
+    background-color: #413D3D;
+    background-image: url(matrix.jpg);
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #44F900;
+    letter-spacing: 1.5px;
+    overflow: hidden;
+}
+ 
+.grid {
+    font-size: 18px;
+    text-align: center;
+    width: 700px;
+    height: 700px;
+    margin: 0 auto;
+    background-color: rgb(7, 6, 6);
+    padding: 50px 50px 50px 50px;
+    border: 5px solid #2dd118;
+    opacity: 0.85;
+    
+}
+ 
+.grid h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #000000;
+    font-size: 60px;
+    text-align: center;
+    color: #1fff01;
+    padding: 2px 0px;
+    opacity: 0.85;
+    
+}
+ 
+#score {
+    color: #1fff01;
+    text-align: center;
+    font-size: 30px;
+}
+ 
+.grid #question {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    color:#1fff01;
+}
+ 
+.btn {
+    margin-top: 30px;
+    text-align: center;
+}
+ 
+#btn0, #btn1, #btn2, #btn3 {
+    background-color:#1fff01;
+    width: 250px;
+    font-size: 20px;
+    color: #000000;
+    border: 1px solid #04460d;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+}
+
+#btnRetry {
+    background-color:#1342db;
+    width: 250px;
+    font-size: 20px;
+    color: #13e3eb;
+    border: 1px solid #16cfe7;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+}
+
+#btnExit {
+    background-color:#771717;
+    width: 250px;
+    font-size: 20px;
+    color: #ff0000;
+    border: 1px solid #ce534e;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+}
+ 
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(29, 173, 53, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+#btnRetry {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(44, 136, 179, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+#btnExit {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(44, 136, 179, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+    outline: 0;
+}
+ 
+#progress {
+    color: #99c51f;
+    font-size: 18px;
+}
